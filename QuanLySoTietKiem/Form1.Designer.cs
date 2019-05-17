@@ -35,7 +35,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(329, 133);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 92);
+            this.button1.Size = new System.Drawing.Size(198, 100);
             this.button1.TabIndex = 0;
             this.button1.Text = "Sỹ 3";
             this.button1.UseVisualStyleBackColor = true;
