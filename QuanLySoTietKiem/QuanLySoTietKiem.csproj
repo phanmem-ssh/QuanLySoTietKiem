@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.35, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,10 +53,49 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RibbonForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm1.Designer.cs">
+      <DependentUpon>RibbonForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCDanhSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDanhSach.Designer.cs">
+      <DependentUpon>UCDanhSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCKhachHang.Designer.cs">
+      <DependentUpon>UCKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCQuayGD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCQuayGD.Designer.cs">
+      <DependentUpon>UCQuayGD.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,7 +105,20 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RibbonForm1.resx">
+      <DependentUpon>RibbonForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDanhSach.resx">
+      <DependentUpon>UCDanhSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCKhachHang.resx">
+      <DependentUpon>UCKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCQuayGD.resx">
+      <DependentUpon>UCQuayGD.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +131,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlankStartButtonNormalBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlankStartButtonNormalBlack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlankStartButtonNormalBlack2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueBackstageBgImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danh sách.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danh sách1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rút tiền.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gửi tiền.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customer-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-condo-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-apartment-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-apartment-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-coworking-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-people-talking-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-group-leader-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-people-talking-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Decentralization.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-people-talking-642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-groups-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-953783638-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-request-money-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-increase-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chart-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeBlack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lq.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
