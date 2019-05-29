@@ -33,7 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.35, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.35, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -91,6 +94,12 @@
     <Compile Include="UCQuayGD.Designer.cs">
       <DependentUpon>UCQuayGD.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCss.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCss.Designer.cs">
+      <DependentUpon>UCss.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCQuayGD.resx">
       <DependentUpon>UCQuayGD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCss.resx">
+      <DependentUpon>UCss.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -216,5 +228,6 @@
   <ItemGroup>
     <None Include="Resources\lq.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

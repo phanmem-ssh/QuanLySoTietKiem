@@ -57,7 +57,7 @@ namespace QuanLySoTietKiem
     
         private void buttonItem15_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
+            UCss USDsach = new UCss();
             addNewTab("Danh sách sổ tiết kiệm","tab1",USDsach);
             
         }
@@ -111,8 +111,8 @@ namespace QuanLySoTietKiem
 
         private void btnPNhom_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Phân nhóm","tab11", USDsach);
+            UCDanhSach USsy = new UCDanhSach();
+            addNewTab("Danh sách sổ tiết kiệm", "tab1", USsy);
         }
 
         private void btnPQuyen_Click(object sender, EventArgs e)
@@ -154,6 +154,11 @@ namespace QuanLySoTietKiem
         }
 
         private void ribbonTabItem3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RibbonForm1_Load(object sender, EventArgs e)
         {
 
         }

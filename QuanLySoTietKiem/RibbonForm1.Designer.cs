@@ -155,6 +155,7 @@
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonPanel1.TabIndex = 1;
+            this.ribbonPanel1.Visible = true;
             // 
             // ribbonBar4
             // 
@@ -718,7 +719,7 @@
             this.tabContent.Location = new System.Drawing.Point(5, 184);
             this.tabContent.Name = "tabContent";
             this.tabContent.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
-            this.tabContent.SelectedTabIndex = 0;
+            this.tabContent.SelectedTabIndex = -1;
             this.tabContent.Size = new System.Drawing.Size(1267, 501);
             this.tabContent.TabIndex = 8;
             this.tabContent.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
@@ -736,6 +737,7 @@
             this.IsMdiContainer = true;
             this.Name = "RibbonForm1";
             this.Text = "PHẦN MỀM QUẢN LÝ SỔ TIẾT KIỆM";
+            this.Load += new System.EventHandler(this.RibbonForm1_Load);
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
             this.ribbonPanel1.ResumeLayout(false);
