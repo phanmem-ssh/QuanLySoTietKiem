@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
+using System.Windows.Forms;
 
 namespace QuanLySoTietKiem.Data
 {
@@ -39,7 +40,7 @@ namespace QuanLySoTietKiem.Data
             }
             catch (Exception e)
             {
-               
+                MessageBox.Show("Lỗi: " + e);
             }
             finally
             {

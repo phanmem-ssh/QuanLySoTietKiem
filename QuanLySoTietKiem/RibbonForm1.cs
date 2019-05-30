@@ -74,18 +74,23 @@ namespace QuanLySoTietKiem
 
         private void btnPhGdich_Click(object sender, EventArgs e)
         {
-        //TAB4
+            //TAB4
+            UCPhongGiaoDich uCPhongGiaoDich = new UCPhongGiaoDich();
+            addNewTab("Phòng giao dịch", "tab5", uCPhongGiaoDich);
         }
 
         private void btnQGdich_Click(object sender, EventArgs e)
         {
             //TAB5
+            
        
         }
 
         private void btnNVien_Click(object sender, EventArgs e)
         {
             //TAB6
+            UCNhanVien UCNV = new UCNhanVien();
+            addNewTab("Nhân viên", "tab6", UCNV);
          
         }
 

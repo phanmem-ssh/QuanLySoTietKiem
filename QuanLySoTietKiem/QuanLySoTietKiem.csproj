@@ -70,6 +70,18 @@
     <Compile Include="Object\Nguoi.cs" />
     <Compile Include="Object\NhanVien.cs" />
     <Compile Include="Object\PhongGiaoDich.cs" />
+    <Compile Include="UCNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCNhanVien.Designer.cs">
+      <DependentUpon>UCNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPhongGiaoDich.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPhongGiaoDich.Designer.cs">
+      <DependentUpon>UCPhongGiaoDich.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RibbonForm1.cs">
@@ -113,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCNhanVien.resx">
+      <DependentUpon>UCNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPhongGiaoDich.resx">
+      <DependentUpon>UCPhongGiaoDich.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -237,8 +255,6 @@
   <ItemGroup>
     <None Include="Resources\lq.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UserControl\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

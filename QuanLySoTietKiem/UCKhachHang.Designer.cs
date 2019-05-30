@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dateNgayCap = new System.Windows.Forms.DateTimePicker();
             this.txtMAKH = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -56,7 +57,7 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridKhachhang = new System.Windows.Forms.DataGridView();
-            this.dateNgayCap = new System.Windows.Forms.DateTimePicker();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -92,6 +93,15 @@
             this.groupBox1.TabIndex = 106;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin khách hàng";
+            // 
+            // dateNgayCap
+            // 
+            this.dateNgayCap.CustomFormat = "dd/MM/yyyy";
+            this.dateNgayCap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateNgayCap.Location = new System.Drawing.Point(151, 178);
+            this.dateNgayCap.Name = "dateNgayCap";
+            this.dateNgayCap.Size = new System.Drawing.Size(236, 22);
+            this.dateNgayCap.TabIndex = 100;
             // 
             // txtMAKH
             // 
@@ -334,15 +344,6 @@
             this.dataGridKhachhang.Size = new System.Drawing.Size(1128, 400);
             this.dataGridKhachhang.TabIndex = 0;
             // 
-            // dateNgayCap
-            // 
-            this.dateNgayCap.CustomFormat = "dd/MM/yyyy";
-            this.dateNgayCap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateNgayCap.Location = new System.Drawing.Point(151, 178);
-            this.dateNgayCap.Name = "dateNgayCap";
-            this.dateNgayCap.Size = new System.Drawing.Size(236, 22);
-            this.dateNgayCap.TabIndex = 100;
-            // 
             // UCKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -394,5 +395,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataGridKhachhang;
         private System.Windows.Forms.DateTimePicker dateNgayCap;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
