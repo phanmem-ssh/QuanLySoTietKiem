@@ -71,5 +71,10 @@ namespace QuanLySoTietKiem
         {
 
         }
+
+        private void BtnThemKH_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

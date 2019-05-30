@@ -57,93 +57,82 @@ namespace QuanLySoTietKiem
     
         private void buttonItem15_Click(object sender, EventArgs e)
         {
-            UCss USDsach = new UCss();
-            addNewTab("Danh sách sổ tiết kiệm","tab1",USDsach);
-            
+          
+            //TAB1
         }
         private void btnRtien_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Rút tiền tiền gửi tiết kiệm","tab2",USDsach);
+         //TAB2
         }
 
         private void btnKhhang_Click(object sender, EventArgs e)
         {
+            //TAB3
             UCKhachHang UCKHang = new UCKhachHang();
             addNewTab("Khách hàng","tab4",UCKHang);
         }
 
         private void btnPhGdich_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Phòng giao dịch","tab5", USDsach);
+        //TAB4
         }
 
         private void btnQGdich_Click(object sender, EventArgs e)
         {
-            UCQuayGD UCQGdich = new UCQuayGD();
-            addNewTab("Quầy giao dịch","tab6", UCQGdich);
+            //TAB5
+       
         }
 
         private void btnNVien_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Nhân viên","tab7", USDsach);
+            //TAB6
+         
         }
 
         private void btnGDVien_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Giao dịch viên","tab8", USDsach);
+            //TAB7
+      
         }
 
         private void btnNhomNGDung_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Nhóm người dùng","tab9", USDsach);
+            //TAB8
         }
 
         private void btnQ_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Quyền","tab10", USDsach);
+            //TAB9
         }
 
         private void btnPNhom_Click(object sender, EventArgs e)
         {
-            UCDanhSach USsy = new UCDanhSach();
-            addNewTab("Danh sách sổ tiết kiệm", "tab1", USsy);
+           //TAB10
         }
 
         private void btnPQuyen_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Phân Quyền","tab12", USDsach);
+           //TAB11
         }
 
         private void btnPSTKiem_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Phát sinh tiết kiệm","tab14", USDsach);
+         //TAB12
 
         }
         private void btnSDTKiem_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Số dư tiết kiệm","tab15", USDsach);
+          //TAB13
 
         }
         private void btnGtien_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-            addNewTab("Gửi thêm tiền tiết kiệm không kì hạn", "tab20",USDsach);
+           //TAB14
 
         }
         private void btnLTKiem_Click(object sender, EventArgs e)
         {
-            UCDanhSach USDsach = new UCDanhSach();
-
-            addNewTab("Loại tiết kiệm", "tab21",USDsach);
+        //TAB15
 
         }
         private void tabContent_TabItemClose(object sender, TabStripActionEventArgs e)

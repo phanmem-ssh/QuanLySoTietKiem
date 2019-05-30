@@ -15,6 +15,8 @@ namespace QuanLySoTietKiem
         public UCKhachHang()
         {
             InitializeComponent();
+
+            dataGridKhachhang.DataSource = Data.Query.LayDuLieu("KHACH_HANG");
         }
 
         private void textBox10_TextChanged(object sender, EventArgs e)
@@ -50,6 +52,24 @@ namespace QuanLySoTietKiem
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void BtnThemKH_Click(object sender, EventArgs e)
+        {
+            Object.KhachHang KhachHangMoi = new Object.KhachHang();
+            KhachHangMoi.setMaKH(txtMAKH.Text);
+            KhachHangMoi.setDiaChi(txtDiaChi.Text);
+            KhachHangMoi.setCmnd(txtCMND.Text);
+            KhachHangMoi.setNoiCap(txtNoiCap.Text);
+            KhachHangMoi.setNgayCap(dateNgayCap.Text.ToString());
+            KhachHangMoi.setTen(txtHoten.Text);
+            KhachHangMoi.setSdt(txtSDT.Text);
+
+            MessageBox.Show(Data.Query.ThemKhachHang(KhachHangMoi).ToString());
+
+
+            dataGridKhachhang.DataSource = Data.Query.LayDuLieu("KHACH_HANG");
+            dataGridKhachhang.Refresh();
         }
     }
 }

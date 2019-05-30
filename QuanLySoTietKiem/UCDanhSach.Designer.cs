@@ -38,7 +38,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.btnThemKH = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -163,14 +163,15 @@
             this.button12.Text = "Sửa";
             this.button12.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // btnThemKH
             // 
-            this.button13.Location = new System.Drawing.Point(180, 258);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 42);
-            this.button13.TabIndex = 94;
-            this.button13.Text = "Thêm";
-            this.button13.UseVisualStyleBackColor = true;
+            this.btnThemKH.Location = new System.Drawing.Point(180, 258);
+            this.btnThemKH.Name = "btnThemKH";
+            this.btnThemKH.Size = new System.Drawing.Size(75, 42);
+            this.btnThemKH.TabIndex = 94;
+            this.btnThemKH.Text = "Thêm";
+            this.btnThemKH.UseVisualStyleBackColor = true;
+            this.btnThemKH.Click += new System.EventHandler(this.BtnThemKH_Click);
             // 
             // label14
             // 
@@ -378,7 +379,7 @@
             this.groupBox1.Controls.Add(this.button11);
             this.groupBox1.Controls.Add(this.textBox20);
             this.groupBox1.Controls.Add(this.button12);
-            this.groupBox1.Controls.Add(this.button13);
+            this.groupBox1.Controls.Add(this.btnThemKH);
             this.groupBox1.Controls.Add(this.textBox23);
             this.groupBox1.Controls.Add(this.textBox19);
             this.groupBox1.Controls.Add(this.textBox9);
@@ -436,6 +437,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(22, 17);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1128, 255);
             this.dataGridView1.TabIndex = 0;
@@ -472,7 +474,7 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btnThemKH;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
