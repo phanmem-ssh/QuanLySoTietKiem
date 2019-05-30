@@ -34,7 +34,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::QuanLySoTietKiem.Properties.Resources.lq;
             this.Name = "UCss";
             this.Size = new System.Drawing.Size(1066, 547);
             this.ResumeLayout(false);
