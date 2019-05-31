@@ -107,7 +107,7 @@ namespace QuanLySoTietKiem
 
         private void btnQ_Click(object sender, EventArgs e)
         {
-            //TAB9
+            //TAB9hi
             UCQuyen UCQ = new UCQuyen();
             addNewTab("Quyền", "tab9", UCQ);
         }
