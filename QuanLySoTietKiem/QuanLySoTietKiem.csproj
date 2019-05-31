@@ -71,6 +71,7 @@
     <Compile Include="Object\KhachHang.cs" />
     <Compile Include="Object\Nguoi.cs" />
     <Compile Include="Object\NhanVien.cs" />
+    <Compile Include="Object\PhanNhom.cs" />
     <Compile Include="Object\PhongGiaoDich.cs" />
     <Compile Include="Object\Quyen.cs" />
     <Compile Include="PhanQuyen.cs">
