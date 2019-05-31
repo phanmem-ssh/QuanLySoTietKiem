@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.btnThemKH = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -49,6 +44,11 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.btnThemKH = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -74,52 +74,7 @@
             this.groupBox1.Size = new System.Drawing.Size(803, 393);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin phân quyền";
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(543, 267);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 42);
-            this.button8.TabIndex = 105;
-            this.button8.Text = "Lưu";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(199, 267);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 42);
-            this.button9.TabIndex = 104;
-            this.button9.Text = "Xóa";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(644, 267);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 42);
-            this.button11.TabIndex = 102;
-            this.button11.Text = "Thoát";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(320, 267);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 42);
-            this.button12.TabIndex = 101;
-            this.button12.Text = "Sửa";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // btnThemKH
-            // 
-            this.btnThemKH.Location = new System.Drawing.Point(86, 267);
-            this.btnThemKH.Name = "btnThemKH";
-            this.btnThemKH.Size = new System.Drawing.Size(75, 42);
-            this.btnThemKH.TabIndex = 100;
-            this.btnThemKH.Text = "Thêm";
-            this.btnThemKH.UseVisualStyleBackColor = true;
+            this.groupBox1.Text = "Thông tin phân nhóm";
             // 
             // textBox3
             // 
@@ -176,18 +131,18 @@
             this.groupBox2.Controls.Add(this.checkBox2);
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Location = new System.Drawing.Point(854, 32);
+            this.groupBox2.Location = new System.Drawing.Point(854, 21);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(392, 382);
+            this.groupBox2.Size = new System.Drawing.Size(392, 393);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin tìm kiếm";
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(140, 303);
+            this.button7.Location = new System.Drawing.Point(127, 303);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 42);
+            this.button7.Size = new System.Drawing.Size(126, 42);
             this.button7.TabIndex = 107;
             this.button7.Text = "Tìm kiếm";
             this.button7.UseVisualStyleBackColor = true;
@@ -252,12 +207,57 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(433, 267);
+            this.button1.Location = new System.Drawing.Point(374, 303);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 42);
-            this.button1.TabIndex = 106;
-            this.button1.Text = "Làm";
+            this.button1.Size = new System.Drawing.Size(134, 42);
+            this.button1.TabIndex = 112;
+            this.button1.Text = "Làm mới";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(602, 232);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(126, 42);
+            this.button8.TabIndex = 111;
+            this.button8.Text = "Lưu";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(127, 232);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(139, 42);
+            this.button9.TabIndex = 110;
+            this.button9.Text = "Xóa";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(602, 303);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(126, 42);
+            this.button11.TabIndex = 109;
+            this.button11.Text = "Thoát";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(374, 232);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(130, 42);
+            this.button12.TabIndex = 108;
+            this.button12.Text = "Sửa";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // btnThemKH
+            // 
+            this.btnThemKH.Location = new System.Drawing.Point(127, 303);
+            this.btnThemKH.Name = "btnThemKH";
+            this.btnThemKH.Size = new System.Drawing.Size(139, 42);
+            this.btnThemKH.TabIndex = 107;
+            this.btnThemKH.Text = "Thêm";
+            this.btnThemKH.UseVisualStyleBackColor = true;
             // 
             // UcPhanNhom
             // 
@@ -282,11 +282,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button btnThemKH;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
@@ -302,5 +297,10 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnThemKH;
     }
 }

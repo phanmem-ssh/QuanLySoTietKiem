@@ -103,6 +103,8 @@ namespace QuanLySoTietKiem
         private void btnNhomNGDung_Click(object sender, EventArgs e)
         {
             //TAB8
+            UCNhomNguoiDung UCNND = new UCNhomNguoiDung();
+            addNewTab("Nhóm người dùng", "tab8", UCNND);
         }
 
         private void btnQ_Click(object sender, EventArgs e)

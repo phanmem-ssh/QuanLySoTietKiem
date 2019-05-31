@@ -76,11 +76,23 @@
     <Compile Include="PhanQuyen.Designer.cs">
       <DependentUpon>PhanQuyen.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCLoaiTietKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCLoaiTietKiem.Designer.cs">
+      <DependentUpon>UCLoaiTietKiem.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCNhanVien.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCNhanVien.Designer.cs">
       <DependentUpon>UCNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCNhomNguoiDung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCNhomNguoiDung.Designer.cs">
+      <DependentUpon>UCNhomNguoiDung.cs</DependentUpon>
     </Compile>
     <Compile Include="UcPhanNhom.cs">
       <SubType>UserControl</SubType>
@@ -147,8 +159,14 @@
     <EmbeddedResource Include="PhanQuyen.resx">
       <DependentUpon>PhanQuyen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCLoaiTietKiem.resx">
+      <DependentUpon>UCLoaiTietKiem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCNhanVien.resx">
       <DependentUpon>UCNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCNhomNguoiDung.resx">
+      <DependentUpon>UCNhomNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UcPhanNhom.resx">
       <DependentUpon>UcPhanNhom.cs</DependentUpon>
