@@ -85,7 +85,6 @@
             // styleManager1
             // 
             styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
-            styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242))))), System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204))))));
             // 
             // ribbonControl1
             // 
@@ -476,7 +475,6 @@
             // buttonItem1
             // 
             this.buttonItem1.Name = "buttonItem1";
-            this.buttonItem1.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.buttonItem1.Text = "buttonItem1";
             // 
             // qatCustomizeItem1
@@ -729,12 +727,13 @@
             // 
             // RibbonForm1
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScroll = true;
             this.BackgroundImage = global::QuanLySoTietKiem.Properties.Resources.BlueBackstageBgImage;
-            this.ClientSize = new System.Drawing.Size(1277, 687);
+            this.ClientSize = new System.Drawing.Size(1277, 727);
             this.Controls.Add(this.tabContent);
             this.Controls.Add(this.ribbonControl1);
             this.HelpButton = true;
-            this.IsMdiContainer = true;
             this.Name = "RibbonForm1";
             this.Text = "PHẦN MỀM QUẢN LÝ SỔ TIẾT KIỆM";
             this.Load += new System.EventHandler(this.RibbonForm1_Load);

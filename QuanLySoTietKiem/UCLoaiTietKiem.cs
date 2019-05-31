@@ -16,5 +16,15 @@ namespace QuanLySoTietKiem
         {
             InitializeComponent();
         }
+
+        private void UCLoaiTietKiem_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GroupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

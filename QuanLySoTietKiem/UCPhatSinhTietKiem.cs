@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace QuanLySoTietKiem
 {
-    public partial class UcPhanNhom : UserControl
+    public partial class UCPhatSinhTietKiem : UserControl
     {
-        public UcPhanNhom()
+        public UCPhatSinhTietKiem()
         {
             InitializeComponent();
-        }
-
-        private void UcPhanNhom_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

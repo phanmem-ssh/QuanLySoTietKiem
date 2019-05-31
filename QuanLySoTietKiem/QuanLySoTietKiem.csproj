@@ -103,6 +103,12 @@
     <Compile Include="UcPhanNhom.Designer.cs">
       <DependentUpon>UcPhanNhom.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCPhatSinhTietKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPhatSinhTietKiem.Designer.cs">
+      <DependentUpon>UCPhatSinhTietKiem.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCPhongGiaoDich.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UcPhanNhom.resx">
       <DependentUpon>UcPhanNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPhatSinhTietKiem.resx">
+      <DependentUpon>UCPhatSinhTietKiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPhongGiaoDich.resx">
       <DependentUpon>UCPhongGiaoDich.cs</DependentUpon>

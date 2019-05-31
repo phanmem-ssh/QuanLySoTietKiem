@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.btnThemKH = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -43,12 +49,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.btnThemKH = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -57,6 +57,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.AutoSize = true;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button8);
             this.groupBox1.Controls.Add(this.button9);
@@ -69,12 +70,66 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(17, 21);
+            this.groupBox1.Location = new System.Drawing.Point(25, 21);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(803, 393);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin phân nhóm";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(374, 303);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(134, 42);
+            this.button1.TabIndex = 112;
+            this.button1.Text = "Làm mới";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(602, 232);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(126, 42);
+            this.button8.TabIndex = 111;
+            this.button8.Text = "Lưu";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(127, 232);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(139, 42);
+            this.button9.TabIndex = 110;
+            this.button9.Text = "Xóa";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(602, 303);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(126, 42);
+            this.button11.TabIndex = 109;
+            this.button11.Text = "Thoát";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(374, 232);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(130, 42);
+            this.button12.TabIndex = 108;
+            this.button12.Text = "Sửa";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // btnThemKH
+            // 
+            this.btnThemKH.Location = new System.Drawing.Point(127, 303);
+            this.btnThemKH.Name = "btnThemKH";
+            this.btnThemKH.Size = new System.Drawing.Size(139, 42);
+            this.btnThemKH.TabIndex = 107;
+            this.btnThemKH.Text = "Thêm";
+            this.btnThemKH.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
@@ -126,6 +181,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.AutoSize = true;
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.textBox17);
             this.groupBox2.Controls.Add(this.checkBox2);
@@ -186,6 +242,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.AutoSize = true;
             this.groupBox3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.groupBox3.Controls.Add(this.dataGridView2);
             this.groupBox3.Location = new System.Drawing.Point(25, 443);
@@ -205,70 +262,18 @@
             this.dataGridView2.Size = new System.Drawing.Size(1175, 340);
             this.dataGridView2.TabIndex = 0;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(374, 303);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 42);
-            this.button1.TabIndex = 112;
-            this.button1.Text = "Làm mới";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(602, 232);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(126, 42);
-            this.button8.TabIndex = 111;
-            this.button8.Text = "Lưu";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(127, 232);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(139, 42);
-            this.button9.TabIndex = 110;
-            this.button9.Text = "Xóa";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(602, 303);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(126, 42);
-            this.button11.TabIndex = 109;
-            this.button11.Text = "Thoát";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(374, 232);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(130, 42);
-            this.button12.TabIndex = 108;
-            this.button12.Text = "Sửa";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // btnThemKH
-            // 
-            this.btnThemKH.Location = new System.Drawing.Point(127, 303);
-            this.btnThemKH.Name = "btnThemKH";
-            this.btnThemKH.Size = new System.Drawing.Size(139, 42);
-            this.btnThemKH.TabIndex = 107;
-            this.btnThemKH.Text = "Thêm";
-            this.btnThemKH.UseVisualStyleBackColor = true;
-            // 
             // UcPhanNhom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "UcPhanNhom";
             this.Size = new System.Drawing.Size(1269, 896);
+            this.Load += new System.EventHandler(this.UcPhanNhom_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -276,6 +281,7 @@
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
