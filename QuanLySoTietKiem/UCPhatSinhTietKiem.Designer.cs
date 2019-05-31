@@ -55,12 +55,21 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridQuyen = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridQuyen)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button9);
@@ -86,7 +95,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1201, 447);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin loại tiết kiệm";
+            this.groupBox1.Text = "Phát sinh tiết kiệm";
             // 
             // button2
             // 
@@ -168,27 +177,27 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(631, 166);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(163, 25);
+            this.label8.Size = new System.Drawing.Size(183, 25);
             this.label8.TabIndex = 12;
-            this.label8.Text = "Số hiệu tài khoản";
+            this.label8.Text = "Mã phòng giao dịch";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(631, 107);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(125, 25);
+            this.label9.Size = new System.Drawing.Size(171, 25);
             this.label9.TabIndex = 11;
-            this.label9.Text = "Mã kỳ tính lãi";
+            this.label9.Text = "Mã quầy giao dịch";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(631, 48);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(111, 25);
+            this.label10.Size = new System.Drawing.Size(158, 25);
             this.label10.TabIndex = 10;
-            this.label10.Text = "Mã loại tiền";
+            this.label10.Text = "Mã loại giao dịch";
             // 
             // textBox4
             // 
@@ -223,18 +232,18 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(34, 218);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(145, 25);
+            this.label4.Size = new System.Drawing.Size(142, 25);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Đang huy động";
+            this.label4.Text = "Mã số tiết kiệm";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(32, 166);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 25);
+            this.label3.Size = new System.Drawing.Size(90, 25);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Kỳ hạn";
+            this.label3.Text = "Đã duyệt";
             // 
             // label2
             // 
@@ -256,6 +265,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.checkBox3);
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.textBox17);
             this.groupBox2.Controls.Add(this.checkBox2);
@@ -270,7 +280,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(148, 286);
+            this.button7.Location = new System.Drawing.Point(164, 342);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(130, 42);
             this.button7.TabIndex = 107;
@@ -279,7 +289,7 @@
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(73, 218);
+            this.textBox17.Location = new System.Drawing.Point(73, 275);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(285, 29);
             this.textBox17.TabIndex = 106;
@@ -289,9 +299,9 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(73, 156);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(174, 29);
+            this.checkBox2.Size = new System.Drawing.Size(221, 29);
             this.checkBox2.TabIndex = 105;
-            this.checkBox2.Text = "Tìm mã loại tiền";
+            this.checkBox2.Text = "Tìm mã loại giao dịch";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox1
@@ -299,9 +309,9 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(73, 108);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(214, 29);
+            this.checkBox1.Size = new System.Drawing.Size(205, 29);
             this.checkBox1.TabIndex = 104;
-            this.checkBox1.Text = "Tìm mã loại tiết kiệm";
+            this.checkBox1.Text = "Tìm mã số tiết kiệm";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label11
@@ -314,19 +324,69 @@
             this.label11.TabIndex = 10;
             this.label11.Text = "Nhập thông tin cần tìm kiếm";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(631, 231);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(130, 25);
+            this.label5.TabIndex = 125;
+            this.label5.Text = "Mã nhân viên";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(905, 231);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(270, 29);
+            this.textBox5.TabIndex = 126;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(73, 214);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(234, 29);
+            this.checkBox3.TabIndex = 108;
+            this.checkBox3.Text = "Tìm mã quầy giao dịch";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox3.Controls.Add(this.dataGridQuyen);
+            this.groupBox3.Location = new System.Drawing.Point(12, 474);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(1619, 520);
+            this.groupBox3.TabIndex = 111;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Bảng thông tin";
+            // 
+            // dataGridQuyen
+            // 
+            this.dataGridQuyen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridQuyen.Location = new System.Drawing.Point(19, 46);
+            this.dataGridQuyen.Name = "dataGridQuyen";
+            this.dataGridQuyen.RowHeadersWidth = 51;
+            this.dataGridQuyen.RowTemplate.Height = 24;
+            this.dataGridQuyen.Size = new System.Drawing.Size(1573, 453);
+            this.dataGridQuyen.TabIndex = 0;
+            // 
             // UCPhatSinhTietKiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "UCPhatSinhTietKiem";
-            this.Size = new System.Drawing.Size(1645, 1011);
+            this.Size = new System.Drawing.Size(1645, 1035);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridQuyen)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -360,5 +420,10 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.DataGridView dataGridQuyen;
     }
 }

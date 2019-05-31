@@ -130,13 +130,15 @@ namespace QuanLySoTietKiem
 
         private void btnPSTKiem_Click(object sender, EventArgs e)
         {
-         //TAB12
-
+            //TAB12
+            UCPhatSinhTietKiem UCPSTK = new UCPhatSinhTietKiem();
+            addNewTab("Phát sinh tiết kiệm", "tab12", UCPSTK);
         }
         private void btnSDTKiem_Click(object sender, EventArgs e)
         {
-          //TAB13
-
+            //TAB13
+            UCSoDuTietKiem UCSDTK = new UCSoDuTietKiem();
+            addNewTab("Số dư tiết kiệm", "tab13", UCSDTK);
         }
         private void btnGtien_Click(object sender, EventArgs e)
         {

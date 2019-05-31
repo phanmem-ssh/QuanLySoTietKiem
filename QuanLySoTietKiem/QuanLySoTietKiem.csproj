@@ -153,6 +153,12 @@
     <Compile Include="UCQuyen.Designer.cs">
       <DependentUpon>UCQuyen.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCSoDuTietKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCSoDuTietKiem.Designer.cs">
+      <DependentUpon>UCSoDuTietKiem.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCss.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -211,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UcQuyen.resx">
       <DependentUpon>UCQuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCSoDuTietKiem.resx">
+      <DependentUpon>UCSoDuTietKiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCss.resx">
       <DependentUpon>UCss.cs</DependentUpon>
