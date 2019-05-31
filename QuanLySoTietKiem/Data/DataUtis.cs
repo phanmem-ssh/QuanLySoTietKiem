@@ -12,7 +12,7 @@ namespace QuanLySoTietKiem.Data
     {
         public static SqlConnection GetDBConnection()
         {
-            string datasource = @"Data Source=DESKTOP-KOVAAEG;Initial Catalog=QuanLyTienTietKiem;Integrated Security=True ";
+            string datasource = @"Data Source=DESKTOP-5K9Q97J;Initial Catalog=QuanLyTienTietKiem;Integrated Security=True ";
             SqlConnection cnn=null;
             try
             {
