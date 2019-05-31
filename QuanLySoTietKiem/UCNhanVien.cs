@@ -35,7 +35,7 @@ namespace QuanLySoTietKiem
                 }
             }
 
-            MessageBox.Show("cc");
+            MessageBox.Show("cc2");
 
         }
 
