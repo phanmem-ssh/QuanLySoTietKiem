@@ -82,6 +82,12 @@
     <Compile Include="UCNhanVien.Designer.cs">
       <DependentUpon>UCNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="UcPhanNhom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcPhanNhom.Designer.cs">
+      <DependentUpon>UcPhanNhom.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCPhongGiaoDich.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -120,6 +126,12 @@
     <Compile Include="UCQuayGD.Designer.cs">
       <DependentUpon>UCQuayGD.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCQuyen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCQuyen.Designer.cs">
+      <DependentUpon>UCQuyen.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCss.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -137,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCNhanVien.resx">
       <DependentUpon>UCNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcPhanNhom.resx">
+      <DependentUpon>UcPhanNhom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPhongGiaoDich.resx">
       <DependentUpon>UCPhongGiaoDich.cs</DependentUpon>
@@ -163,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCQuayGD.resx">
       <DependentUpon>UCQuayGD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcQuyen.resx">
+      <DependentUpon>UCQuyen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCss.resx">
       <DependentUpon>UCss.cs</DependentUpon>

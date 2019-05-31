@@ -47,13 +47,13 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.btnThemKH = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -62,9 +62,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button8);
             this.groupBox1.Controls.Add(this.button9);
-            this.groupBox1.Controls.Add(this.button10);
             this.groupBox1.Controls.Add(this.button11);
             this.groupBox1.Controls.Add(this.button12);
             this.groupBox1.Controls.Add(this.btnThemKH);
@@ -245,15 +245,6 @@
             this.button9.Text = "Xóa";
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(465, 345);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 42);
-            this.button10.TabIndex = 103;
-            this.button10.Text = "Làm mới";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
             // button11
             // 
             this.button11.Location = new System.Drawing.Point(680, 345);
@@ -313,6 +304,15 @@
             this.checkBox3.Text = "Tìm mã nhân viên";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(470, 345);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 42);
+            this.button1.TabIndex = 106;
+            this.button1.Text = "Làm";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // PhanQuyen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
@@ -354,12 +354,12 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button btnThemKH;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.Button button1;
     }
 }

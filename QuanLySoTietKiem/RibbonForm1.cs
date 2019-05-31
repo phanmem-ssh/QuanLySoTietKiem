@@ -108,16 +108,22 @@ namespace QuanLySoTietKiem
         private void btnQ_Click(object sender, EventArgs e)
         {
             //TAB9
+            UCQuyen UCQ = new UCQuyen();
+            addNewTab("Quyền", "tab9", UCQ);
         }
 
         private void btnPNhom_Click(object sender, EventArgs e)
         {
-           //TAB10
+            //TAB10
+            UcPhanNhom UCPN = new UcPhanNhom();
+            addNewTab("Phân nhóm", "TAB10", UCPN);
         }
 
         private void btnPQuyen_Click(object sender, EventArgs e)
         {
-           //TAB11
+            //TAB11
+            PhanQuyen UCPQ = new PhanQuyen();
+            addNewTab("Phân quyền", "tab11", UCPQ);
         }
 
         private void btnPSTKiem_Click(object sender, EventArgs e)
