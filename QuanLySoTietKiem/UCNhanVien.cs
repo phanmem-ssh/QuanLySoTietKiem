@@ -16,10 +16,27 @@ namespace QuanLySoTietKiem
         {
             InitializeComponent();
 
-            DataTable data = Data.Query.LayDuLieu("NHAN_VIEN");
-            MessageBox.Show(data.Rows[1].ItemArray[3].ToString());
+            DataTable dataPGD = Data.Query.LayDuLieu("PHONG_GIAO_DICH");
+            DataTable dataNV = Data.Query.LayDuLieu("NHAN_VIEN");
 
-            dataGridViewNhanVien.DataSource = Data.Query.LayDuLieu("NHAN_VIEN");
+            dataGridViewNhanVien.DataSource = dataNV;
+
+            for (int i = 0; i < dataNV.Rows.Count; i++)
+            {
+                for (int j = 0; j < dataPGD.Rows.Count; j++)
+                {
+                    if(dataNV.Rows[i].ItemArray[5].Equals(dataPGD.Rows[j].ItemArray[0]))
+                    {
+
+                        dataGridViewNhanVien.Rows[i].Cells[5].Value = dataPGD.Rows[j].ItemArray[1].ToString();
+                        break;
+                    }
+                        
+                }
+            }
+
+     
+
         }
 
         private void Label6_Click(object sender, EventArgs e)

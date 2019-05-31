@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace QuanLySoTietKiem.Data
 {
@@ -12,9 +13,17 @@ namespace QuanLySoTietKiem.Data
         public static SqlConnection GetDBConnection()
         {
             string datasource = @"Data Source=DESKTOP-KOVAAEG;Initial Catalog=QuanLyTienTietKiem;Integrated Security=True ";
+            SqlConnection cnn=null;
+            try
+            {
+                cnn = new SqlConnection(datasource);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Loi ket noi data: " + e);
+            }
 
-         
-            SqlConnection cnn = new SqlConnection(datasource);
+        
             return cnn;
         }
     }

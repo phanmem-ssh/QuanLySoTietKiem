@@ -103,32 +103,42 @@ namespace QuanLySoTietKiem
         private void btnNhomNGDung_Click(object sender, EventArgs e)
         {
             //TAB8
+            UCNhomNguoiDung UCNND = new UCNhomNguoiDung();
+            addNewTab("Nhóm người dùng", "tab8", UCNND);
         }
 
         private void btnQ_Click(object sender, EventArgs e)
         {
-            //TAB9
+            //TAB9hi
+            UCQuyen UCQ = new UCQuyen();
+            addNewTab("Quyền", "tab9", UCQ);
         }
 
         private void btnPNhom_Click(object sender, EventArgs e)
         {
-           //TAB10
+            //TAB10
+            UcPhanNhom UCPN = new UcPhanNhom();
+            addNewTab("Phân nhóm", "TAB10", UCPN);
         }
 
         private void btnPQuyen_Click(object sender, EventArgs e)
         {
-           //TAB11
+            //TAB11
+            PhanQuyen UCPQ = new PhanQuyen();
+            addNewTab("Phân quyền", "tab11", UCPQ);
         }
 
         private void btnPSTKiem_Click(object sender, EventArgs e)
         {
-         //TAB12
-
+            //TAB12
+            UCPhatSinhTietKiem UCPSTK = new UCPhatSinhTietKiem();
+            addNewTab("Phát sinh tiết kiệm", "tab12", UCPSTK);
         }
         private void btnSDTKiem_Click(object sender, EventArgs e)
         {
-          //TAB13
-
+            //TAB13
+            UCSoDuTietKiem UCSDTK = new UCSoDuTietKiem();
+            addNewTab("Số dư tiết kiệm", "tab13", UCSDTK);
         }
         private void btnGtien_Click(object sender, EventArgs e)
         {
@@ -137,7 +147,9 @@ namespace QuanLySoTietKiem
         }
         private void btnLTKiem_Click(object sender, EventArgs e)
         {
-        //TAB15
+            //TAB15
+            UCLoaiTietKiem UCLTK = new UCLoaiTietKiem();
+            addNewTab("Loại tiết kiệm", "tab15", UCLTK);
 
         }
         private void tabContent_TabItemClose(object sender, TabStripActionEventArgs e)

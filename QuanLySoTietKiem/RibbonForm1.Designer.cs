@@ -85,7 +85,6 @@
             // styleManager1
             // 
             styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
-            styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242))))), System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204))))));
             // 
             // ribbonControl1
             // 
@@ -136,11 +135,11 @@
             this.ribbonPanel1.Controls.Add(this.ribbonBar2);
             this.ribbonPanel1.Controls.Add(this.ribbonBar1);
             this.ribbonPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel1.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel1.Location = new System.Drawing.Point(0, 59);
             this.ribbonPanel1.Margin = new System.Windows.Forms.Padding(5);
             this.ribbonPanel1.Name = "ribbonPanel1";
             this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
-            this.ribbonPanel1.Size = new System.Drawing.Size(1267, 130);
+            this.ribbonPanel1.Size = new System.Drawing.Size(1267, 124);
             // 
             // 
             // 
@@ -176,7 +175,7 @@
             this.btnSDTKiem});
             this.ribbonBar4.Location = new System.Drawing.Point(1031, 0);
             this.ribbonBar4.Name = "ribbonBar4";
-            this.ribbonBar4.Size = new System.Drawing.Size(233, 128);
+            this.ribbonBar4.Size = new System.Drawing.Size(233, 122);
             this.ribbonBar4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonBar4.TabIndex = 3;
             // 
@@ -242,7 +241,7 @@
             this.btnPQuyen});
             this.ribbonBar3.Location = new System.Drawing.Point(709, 0);
             this.ribbonBar3.Name = "ribbonBar3";
-            this.ribbonBar3.Size = new System.Drawing.Size(322, 128);
+            this.ribbonBar3.Size = new System.Drawing.Size(322, 122);
             this.ribbonBar3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonBar3.TabIndex = 2;
             // 
@@ -320,7 +319,7 @@
             this.btnGDVien});
             this.ribbonBar2.Location = new System.Drawing.Point(393, 0);
             this.ribbonBar2.Name = "ribbonBar2";
-            this.ribbonBar2.Size = new System.Drawing.Size(316, 128);
+            this.ribbonBar2.Size = new System.Drawing.Size(316, 122);
             this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonBar2.TabIndex = 1;
             // 
@@ -401,7 +400,7 @@
             this.BtnKhhang});
             this.ribbonBar1.Location = new System.Drawing.Point(3, 0);
             this.ribbonBar1.Name = "ribbonBar1";
-            this.ribbonBar1.Size = new System.Drawing.Size(390, 128);
+            this.ribbonBar1.Size = new System.Drawing.Size(390, 122);
             this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonBar1.TabIndex = 0;
             // 
@@ -476,7 +475,6 @@
             // buttonItem1
             // 
             this.buttonItem1.Name = "buttonItem1";
-            this.buttonItem1.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.buttonItem1.Text = "buttonItem1";
             // 
             // qatCustomizeItem1
@@ -729,12 +727,13 @@
             // 
             // RibbonForm1
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScroll = true;
             this.BackgroundImage = global::QuanLySoTietKiem.Properties.Resources.BlueBackstageBgImage;
-            this.ClientSize = new System.Drawing.Size(1277, 687);
+            this.ClientSize = new System.Drawing.Size(1277, 727);
             this.Controls.Add(this.tabContent);
             this.Controls.Add(this.ribbonControl1);
             this.HelpButton = true;
-            this.IsMdiContainer = true;
             this.Name = "RibbonForm1";
             this.Text = "PHẦN MỀM QUẢN LÝ SỔ TIẾT KIỆM";
             this.Load += new System.EventHandler(this.RibbonForm1_Load);
