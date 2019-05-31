@@ -34,7 +34,7 @@ namespace QuanLySoTietKiem
                         
                 }
             }
-            MessageBox.Show(dataPGD.Rows[0].ItemArray[0].ToString());
+            
 
         }
 
