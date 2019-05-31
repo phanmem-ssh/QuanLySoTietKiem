@@ -15,6 +15,8 @@ namespace QuanLySoTietKiem
         public UCQuyen()
         {
             InitializeComponent();
+
+            dataGridQuyen.DataSource = Data.Query.LayDuLieu("QUYEN");
         }
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
