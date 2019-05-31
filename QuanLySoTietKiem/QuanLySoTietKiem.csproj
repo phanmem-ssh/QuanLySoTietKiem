@@ -70,6 +70,12 @@
     <Compile Include="Object\Nguoi.cs" />
     <Compile Include="Object\NhanVien.cs" />
     <Compile Include="Object\PhongGiaoDich.cs" />
+    <Compile Include="PhanQuyen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PhanQuyen.Designer.cs">
+      <DependentUpon>PhanQuyen.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCNhanVien.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhanQuyen.resx">
+      <DependentUpon>PhanQuyen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCNhanVien.resx">
       <DependentUpon>UCNhanVien.cs</DependentUpon>

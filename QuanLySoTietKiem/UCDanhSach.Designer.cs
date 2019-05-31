@@ -87,7 +87,7 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(53, 118);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(151, 21);
+            this.checkBox2.Size = new System.Drawing.Size(205, 29);
             this.checkBox2.TabIndex = 104;
             this.checkBox2.Text = "Tìm mã sổ tiết kiệm";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(53, 76);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(155, 21);
+            this.checkBox1.Size = new System.Drawing.Size(210, 29);
             this.checkBox1.TabIndex = 103;
             this.checkBox1.Text = "Tìm tên khách hàng";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -106,7 +106,7 @@
             // 
             this.textBox17.Location = new System.Drawing.Point(49, 173);
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(210, 22);
+            this.textBox17.Size = new System.Drawing.Size(210, 29);
             this.textBox17.TabIndex = 102;
             // 
             // label13
@@ -114,7 +114,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(48, 32);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(150, 17);
+            this.label13.Size = new System.Drawing.Size(205, 25);
             this.label13.TabIndex = 100;
             this.label13.Text = "Nhập thông tin cần tìm";
             // 
@@ -178,7 +178,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(554, 54);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(97, 17);
+            this.label14.Size = new System.Drawing.Size(134, 25);
             this.label14.TabIndex = 93;
             this.label14.Text = "Ngày đến hạn";
             // 
@@ -187,7 +187,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(561, 166);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(90, 17);
+            this.label15.Size = new System.Drawing.Size(124, 25);
             this.label15.TabIndex = 92;
             this.label15.Text = "Lãi nhập vốn";
             // 
@@ -196,7 +196,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(333, 202);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(93, 17);
+            this.label16.Size = new System.Drawing.Size(127, 25);
             this.label16.TabIndex = 91;
             this.label16.Text = "Ngày tất toán";
             // 
@@ -205,7 +205,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(43, 89);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(91, 17);
+            this.label17.Size = new System.Drawing.Size(125, 25);
             this.label17.TabIndex = 90;
             this.label17.Text = "Loại tiết kiệm";
             // 
@@ -214,7 +214,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(50, 126);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(84, 17);
+            this.label18.Size = new System.Drawing.Size(118, 25);
             this.label18.TabIndex = 89;
             this.label18.Text = "Khách hàng";
             // 
@@ -223,7 +223,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(51, 164);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(83, 17);
+            this.label19.Size = new System.Drawing.Size(116, 25);
             this.label19.TabIndex = 88;
             this.label19.Text = "Ngày mở sổ";
             // 
@@ -232,7 +232,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(40, 202);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(94, 17);
+            this.label20.Size = new System.Drawing.Size(130, 25);
             this.label20.TabIndex = 87;
             this.label20.Text = "Ngày hiệu lực";
             // 
@@ -241,7 +241,7 @@
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(505, 89);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(146, 17);
+            this.label21.Size = new System.Drawing.Size(199, 25);
             this.label21.TabIndex = 86;
             this.label21.Text = "Ngày tính lãi gần nhất";
             // 
@@ -250,7 +250,7 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(550, 126);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(101, 17);
+            this.label22.Size = new System.Drawing.Size(139, 25);
             this.label22.TabIndex = 85;
             this.label22.Text = "Ngày tái ký gửi";
             // 
@@ -259,7 +259,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(357, 166);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(68, 17);
+            this.label23.Size = new System.Drawing.Size(92, 25);
             this.label23.TabIndex = 84;
             this.label23.Text = "Lãi đã trả";
             // 
@@ -268,7 +268,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(561, 203);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(104, 17);
+            this.label24.Size = new System.Drawing.Size(144, 25);
             this.label24.TabIndex = 83;
             this.label24.Text = "Ngày nhập vốn";
             // 
@@ -277,7 +277,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(90, 54);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(44, 17);
+            this.label25.Size = new System.Drawing.Size(63, 25);
             this.label25.TabIndex = 82;
             this.label25.Text = "Số sổ";
             // 
@@ -285,84 +285,84 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(150, 89);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(188, 22);
+            this.textBox5.Size = new System.Drawing.Size(188, 29);
             this.textBox5.TabIndex = 81;
             // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(150, 124);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(165, 22);
+            this.textBox6.Size = new System.Drawing.Size(165, 29);
             this.textBox6.TabIndex = 80;
             // 
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(150, 161);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(149, 22);
+            this.textBox7.Size = new System.Drawing.Size(149, 29);
             this.textBox7.TabIndex = 79;
             // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(146, 198);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(165, 22);
+            this.textBox8.Size = new System.Drawing.Size(165, 29);
             this.textBox8.TabIndex = 78;
             // 
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(671, 49);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(147, 22);
+            this.textBox9.Size = new System.Drawing.Size(147, 29);
             this.textBox9.TabIndex = 77;
             // 
             // textBox19
             // 
             this.textBox19.Location = new System.Drawing.Point(671, 84);
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(147, 22);
+            this.textBox19.Size = new System.Drawing.Size(147, 29);
             this.textBox19.TabIndex = 76;
             // 
             // textBox23
             // 
             this.textBox23.Location = new System.Drawing.Point(440, 164);
             this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(100, 22);
+            this.textBox23.Size = new System.Drawing.Size(100, 29);
             this.textBox23.TabIndex = 72;
             // 
             // textBox20
             // 
             this.textBox20.Location = new System.Drawing.Point(671, 121);
             this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(147, 22);
+            this.textBox20.Size = new System.Drawing.Size(147, 29);
             this.textBox20.TabIndex = 75;
             // 
             // textBox21
             // 
             this.textBox21.Location = new System.Drawing.Point(671, 161);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(147, 22);
+            this.textBox21.Size = new System.Drawing.Size(147, 29);
             this.textBox21.TabIndex = 74;
             // 
             // textBox22
             // 
             this.textBox22.Location = new System.Drawing.Point(671, 198);
             this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(147, 22);
+            this.textBox22.Size = new System.Drawing.Size(147, 29);
             this.textBox22.TabIndex = 73;
             // 
             // textBox24
             // 
             this.textBox24.Location = new System.Drawing.Point(439, 200);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(100, 22);
+            this.textBox24.Size = new System.Drawing.Size(100, 29);
             this.textBox24.TabIndex = 71;
             // 
             // textBox25
             // 
             this.textBox25.Location = new System.Drawing.Point(150, 54);
             this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(165, 22);
+            this.textBox25.Size = new System.Drawing.Size(165, 29);
             this.textBox25.TabIndex = 70;
             // 
             // groupBox1
@@ -450,7 +450,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "UCDanhSach";
-            this.Size = new System.Drawing.Size(1190, 634);
+            this.Size = new System.Drawing.Size(1248, 694);
             this.Load += new System.EventHandler(this.UCDanhSach_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
