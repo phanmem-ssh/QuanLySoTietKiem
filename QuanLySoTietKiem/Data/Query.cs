@@ -11,6 +11,7 @@ namespace QuanLySoTietKiem.Data
 {
     public class Query
     {
+        //Hàm static thêm khách hàng trả về 1 nếu thành công
         public static int ThemKhachHang(Object.KhachHang kh)
         {
             int ok = -1;
@@ -57,6 +58,47 @@ namespace QuanLySoTietKiem.Data
         public static void Sua()
         {
 
+        }
+        //Hàm truyền vào Mã chuỗi(Chung),Cột mã(Chung),Tên 2 bảng trả(bang2 chứa tên), Tên cần lấy
+        //Trả về tên
+        public static string TenTraVe(string Ma, string Cot, string bang1, string bang2, string tenCanLay)
+        {
+            string valu=null;
+            SqlConnection cnn = Data.DataUtis.GetDBConnection();
+            cnn.Open();
+            try
+            {
+              // string sql = "select Top 1 "+tenCanLay+" from "+bang1+" , "+bang2+" where ( "+bang1+"."+Cot+" = "+ bang2 + "." + Cot + " and "+bang2+"."+Cot+" = "+ Ma +") ";
+                string sql = "select Top 1 "+tenCanLay+ " from " + bang1 + ", " + bang2 + " where (" + bang1 + "." + Cot + " = " + bang2 + "." + Cot + " and " + bang2 + "." + Cot + "='" + Ma + "')";
+
+                SqlCommand cmd = cnn.CreateCommand();
+                cmd.CommandText = sql;
+              // // cmd.Parameters.Add("@Ma", SqlDbType.VarChar).Value = Ma;
+              //  cmd.Parameters.AddWithValue("@Ma", Ma);
+              // // cmd.Parameters.Add("@Cot", SqlDbType.VarChar).Value = Cot;
+              //  cmd.Parameters.AddWithValue("@Cot", Cot);
+              // // cmd.Parameters.Add("@bang1", SqlDbType.VarChar).Value = bang1;
+              //  cmd.Parameters.AddWithValue("@bang1", bang1);
+              ////  cmd.Parameters.Add("@bang2", SqlDbType.VarChar).Value = bang2;
+              //  cmd.Parameters.AddWithValue("@bang2", bang2);
+              // // cmd.Parameters.Add("@tenCanLay", SqlDbType.VarChar).Value = tenCanLay;
+              //  cmd.Parameters.AddWithValue("@tenCanLay", tenCanLay);
+
+                valu = cmd.ExecuteScalar().ToString();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Lỗi trả về: " + e);
+            }
+            finally
+            {
+                cnn.Close();
+                cnn.Dispose();
+                cnn = null;
+            }
+            
+
+            return valu;
         }
         public static DataTable LayDuLieu(string Bang)
         {
