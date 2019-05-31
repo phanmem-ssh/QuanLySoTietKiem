@@ -29,5 +29,10 @@ namespace QuanLySoTietKiem
             }
 
         }
+
+        private void UcPhanNhom_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

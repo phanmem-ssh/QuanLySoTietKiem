@@ -103,6 +103,8 @@ namespace QuanLySoTietKiem
         private void btnNhomNGDung_Click(object sender, EventArgs e)
         {
             //TAB8
+            UCNhomNguoiDung UCNND = new UCNhomNguoiDung();
+            addNewTab("Nhóm người dùng", "tab8", UCNND);
         }
 
         private void btnQ_Click(object sender, EventArgs e)
@@ -143,7 +145,9 @@ namespace QuanLySoTietKiem
         }
         private void btnLTKiem_Click(object sender, EventArgs e)
         {
-        //TAB15
+            //TAB15
+            UCLoaiTietKiem UCLTK = new UCLoaiTietKiem();
+            addNewTab("Loại tiết kiệm", "tab15", UCLTK);
 
         }
         private void tabContent_TabItemClose(object sender, TabStripActionEventArgs e)
