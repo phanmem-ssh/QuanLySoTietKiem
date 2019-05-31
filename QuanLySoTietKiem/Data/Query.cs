@@ -61,7 +61,10 @@ namespace QuanLySoTietKiem.Data
         public static DataTable LayDuLieu(string Bang)
         {
             SqlConnection cnn = Data.DataUtis.GetDBConnection();
-            cnn.Open();
+            
+               
+                cnn.Open();
+           
             string sql = "select * from " + Bang;
             SqlCommand com = new SqlCommand(sql, cnn);
             com.CommandType = System.Data.CommandType.Text;
