@@ -101,7 +101,7 @@ namespace QuanLySoTietKiem
         {
             //TAB7
             UCGiaoDichVien UCGDV = new UCGiaoDichVien();
-            addNewTab("Giao dịch viên", "tab7", UCNV);
+        //    addNewTab("Giao dịch viên", "tab7", UCNV);
         }
 
         private void btnNhomNGDung_Click(object sender, EventArgs e)
