@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace QuanLySoTietKiem
 {
-    public partial class UCLoaiTietKiem : UserControl
+    public partial class UCTaiKhoan : UserControl
     {
-        
-
-        private void UCLoaiTietKiem_Load(object sender, EventArgs e)
+        public UCTaiKhoan()
         {
-
-        }
-
-        private void GroupBox1_Enter(object sender, EventArgs e)
-        {
-
+            InitializeComponent();
         }
     }
 }
