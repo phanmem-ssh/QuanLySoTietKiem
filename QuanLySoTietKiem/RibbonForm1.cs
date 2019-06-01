@@ -57,12 +57,15 @@ namespace QuanLySoTietKiem
     
         private void buttonItem15_Click(object sender, EventArgs e)
         {
-          
             //TAB1
+
+
         }
         private void btnRtien_Click(object sender, EventArgs e)
         {
-         //TAB2
+            //TAB2
+            UCRutTienTietKiem UCRTTK = new UCRutTienTietKiem();
+            addNewTab("Rút tiền tiết kiệm", "tab2", UCRTTK);
         }
 
         private void btnKhhang_Click(object sender, EventArgs e)
@@ -82,8 +85,8 @@ namespace QuanLySoTietKiem
         private void btnQGdich_Click(object sender, EventArgs e)
         {
             //TAB5
-            
-       
+            UCQuayGiaoDich UCQGD = new UCQuayGiaoDich();
+            addNewTab("Quầy giao dịch", "tab5", UCQGD);
         }
 
         private void btnNVien_Click(object sender, EventArgs e)
@@ -97,8 +100,8 @@ namespace QuanLySoTietKiem
         private void btnGDVien_Click(object sender, EventArgs e)
         {
             //TAB7
-
-      
+            UCGiaoDichVien UCGDV = new UCGiaoDichVien();
+            addNewTab("Giao dịch viên", "tab7", UCNV);
         }
 
         private void btnNhomNGDung_Click(object sender, EventArgs e)
@@ -144,7 +147,8 @@ namespace QuanLySoTietKiem
         private void btnGtien_Click(object sender, EventArgs e)
         {
            //TAB14
-
+           UCSoDuTietKiem UCSDTK = new UCSoDuTietKiem();
+            addNewTab("Số dư tiết kiệm", "tab13", UCSDTK);
         }
         private void btnLTKiem_Click(object sender, EventArgs e)
         {
