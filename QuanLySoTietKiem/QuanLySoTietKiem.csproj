@@ -80,6 +80,24 @@
     <Compile Include="PhanQuyen.Designer.cs">
       <DependentUpon>PhanQuyen.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCDanhSachSoTietKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDanhSachSoTietKiem.Designer.cs">
+      <DependentUpon>UCDanhSachSoTietKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCGiaoDichVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCGiaoDichVien.Designer.cs">
+      <DependentUpon>UCGiaoDichVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCGuiThemTienSoKhongKyHan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCGuiThemTienSoKhongKyHan.Designer.cs">
+      <DependentUpon>UCGuiThemTienSoKhongKyHan.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCLoaiTietKiem.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -148,11 +166,23 @@
     <Compile Include="UCQuayGD.Designer.cs">
       <DependentUpon>UCQuayGD.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCQuayGiaoDich.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCQuayGiaoDich.Designer.cs">
+      <DependentUpon>UCQuayGiaoDich.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCQuyen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCQuyen.Designer.cs">
       <DependentUpon>UCQuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCRutTienTietKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCRutTienTietKiem.Designer.cs">
+      <DependentUpon>UCRutTienTietKiem.cs</DependentUpon>
     </Compile>
     <Compile Include="UCSoDuTietKiem.cs">
       <SubType>UserControl</SubType>
@@ -174,6 +204,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PhanQuyen.resx">
       <DependentUpon>PhanQuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDanhSachSoTietKiem.resx">
+      <DependentUpon>UCDanhSachSoTietKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCGiaoDichVien.resx">
+      <DependentUpon>UCGiaoDichVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCGuiThemTienSoKhongKyHan.resx">
+      <DependentUpon>UCGuiThemTienSoKhongKyHan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCLoaiTietKiem.resx">
       <DependentUpon>UCLoaiTietKiem.cs</DependentUpon>
@@ -216,8 +255,14 @@
     <EmbeddedResource Include="UCQuayGD.resx">
       <DependentUpon>UCQuayGD.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCQuayGiaoDich.resx">
+      <DependentUpon>UCQuayGiaoDich.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UcQuyen.resx">
       <DependentUpon>UCQuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCRutTienTietKiem.resx">
+      <DependentUpon>UCRutTienTietKiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCSoDuTietKiem.resx">
       <DependentUpon>UCSoDuTietKiem.cs</DependentUpon>

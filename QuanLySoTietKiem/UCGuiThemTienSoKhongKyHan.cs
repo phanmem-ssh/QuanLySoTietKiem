@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace QuanLySoTietKiem
 {
-    public partial class UCPhatSinhTietKiem : UserControl
+    public partial class UCGuiThemTienSoKhongKyHan : UserControl
     {
-        public UCPhatSinhTietKiem()
+        public UCGuiThemTienSoKhongKyHan()
         {
             InitializeComponent();
         }
 
-        private void GroupBox1_Enter(object sender, EventArgs e)
+        private void Label10_Click(object sender, EventArgs e)
         {
 
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLySoTietKiem
 {
-    public partial class UCPhatSinhTietKiem : UserControl
+    public partial class UCGiaoDichVien : UserControl
     {
-        public UCPhatSinhTietKiem()
+        public UCGiaoDichVien()
         {
             InitializeComponent();
         }
