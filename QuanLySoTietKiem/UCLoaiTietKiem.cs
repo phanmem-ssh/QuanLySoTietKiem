@@ -12,7 +12,10 @@ namespace QuanLySoTietKiem
 {
     public partial class UCLoaiTietKiem : UserControl
     {
-        
+        public UCLoaiTietKiem()
+        {
+            InitializeComponent();
+        }
 
         private void UCLoaiTietKiem_Load(object sender, EventArgs e)
         {
