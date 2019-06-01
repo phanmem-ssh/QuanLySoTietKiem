@@ -57,12 +57,15 @@ namespace QuanLySoTietKiem
     
         private void buttonItem15_Click(object sender, EventArgs e)
         {
-          
             //TAB1
+            UCDanhSachSoTietKiem UCDSSTK = new UCDanhSachSoTietKiem();
+            addNewTab("Danh sách sổ tiết kiệm", "tab1", UCDSSTK);
         }
         private void btnRtien_Click(object sender, EventArgs e)
         {
-         //TAB2
+            //TAB2
+            UCRutTienTietKiem UCRTTK = new UCRutTienTietKiem();
+            addNewTab("Rút tiền gửi tiết kiệm", "tab2", UCRTTK);
         }
 
         private void btnKhhang_Click(object sender, EventArgs e)
@@ -82,8 +85,9 @@ namespace QuanLySoTietKiem
         private void btnQGdich_Click(object sender, EventArgs e)
         {
             //TAB5
-            
-       
+            UCQuayGiaoDich UCQGD = new UCQuayGiaoDich();
+            addNewTab("Quầy giao dịch", "tab5", UCQGD);
+
         }
 
         private void btnNVien_Click(object sender, EventArgs e)
@@ -97,7 +101,8 @@ namespace QuanLySoTietKiem
         private void btnGDVien_Click(object sender, EventArgs e)
         {
             //TAB7
-      
+            UCGiaoDichVien UCGDV = new UCGiaoDichVien();
+            addNewTab("Giao dịch viên", "tab7", UCGDV);
         }
 
         private void btnNhomNGDung_Click(object sender, EventArgs e)
@@ -109,7 +114,7 @@ namespace QuanLySoTietKiem
 
         private void btnQ_Click(object sender, EventArgs e)
         {
-            //TAB9hi
+            //TAB9
             UCQuyen UCQ = new UCQuyen();
             addNewTab("Quyền", "tab9", UCQ);
         }
@@ -142,8 +147,9 @@ namespace QuanLySoTietKiem
         }
         private void btnGtien_Click(object sender, EventArgs e)
         {
-           //TAB14
-
+                //TAB 14
+                UCGuiThemTienSoKhongKyHan UCGTTSKKH = new UCGuiThemTienSoKhongKyHan();
+                addNewTab("Gửi thêm tiền sổ không kỳ hạn", "tab14", UCGTTSKKH);
         }
         private void btnLTKiem_Click(object sender, EventArgs e)
         {
@@ -152,6 +158,12 @@ namespace QuanLySoTietKiem
             addNewTab("Loại tiết kiệm", "tab15", UCLTK);
 
         }
+        private void btnGThemTienKhongKyHan_Click(object sender, EventArgs e)
+        {
+            //TAB 16
+            UCGuiThemTienSoKhongKyHan UCGTTSKKH = new UCGuiThemTienSoKhongKyHan();
+            addNewTab("Gửi thêm tiền sổ không kỳ hạn", "tab16", UCGTTSKKH);
+        }
         private void tabContent_TabItemClose(object sender, TabStripActionEventArgs e)
         {
             TabItem tab = tabContent.SelectedTab;
@@ -159,10 +171,13 @@ namespace QuanLySoTietKiem
             
         }
 
+
         private void ribbonTabItem3_Click(object sender, EventArgs e)
         {
 
         }
+
+
 
         private void RibbonForm1_Load(object sender, EventArgs e)
         {
