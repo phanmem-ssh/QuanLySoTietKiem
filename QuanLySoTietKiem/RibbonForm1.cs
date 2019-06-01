@@ -57,12 +57,15 @@ namespace QuanLySoTietKiem
     
         private void buttonItem15_Click(object sender, EventArgs e)
         {
-          
             //TAB1
+
+
         }
         private void btnRtien_Click(object sender, EventArgs e)
         {
-         //TAB2
+            //TAB2
+            UCRutTienTietKiem UCRTTK = new UCRutTienTietKiem();
+            addNewTab("Rút tiền tiết kiệm", "tab2", UCRTTK);
         }
 
         private void btnKhhang_Click(object sender, EventArgs e)
