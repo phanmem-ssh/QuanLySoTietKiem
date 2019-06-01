@@ -52,6 +52,8 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridQuyen = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.MaQuyen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenQuyen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -304,6 +306,9 @@
             // dataGridQuyen
             // 
             this.dataGridQuyen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridQuyen.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaQuyen,
+            this.TenQuyen});
             this.dataGridQuyen.Location = new System.Drawing.Point(14, 31);
             this.dataGridQuyen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridQuyen.Name = "dataGridQuyen";
@@ -321,6 +326,22 @@
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(240, 150);
             this.dataGridView2.TabIndex = 0;
+            // 
+            // MaQuyen
+            // 
+            this.MaQuyen.DataPropertyName = "MaQuyen";
+            this.MaQuyen.HeaderText = "Mã quyền";
+            this.MaQuyen.MinimumWidth = 6;
+            this.MaQuyen.Name = "MaQuyen";
+            this.MaQuyen.Width = 200;
+            // 
+            // TenQuyen
+            // 
+            this.TenQuyen.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenQuyen.DataPropertyName = "TenQuyen";
+            this.TenQuyen.HeaderText = "Tên Quyền";
+            this.TenQuyen.MinimumWidth = 6;
+            this.TenQuyen.Name = "TenQuyen";
             // 
             // UCQuyen
             // 
@@ -371,5 +392,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaQuyen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenQuyen;
     }
 }

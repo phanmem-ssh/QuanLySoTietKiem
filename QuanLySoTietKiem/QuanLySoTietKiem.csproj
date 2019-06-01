@@ -73,6 +73,7 @@
     <Compile Include="Object\NhanVien.cs" />
     <Compile Include="Object\NhomNguoiDung.cs" />
     <Compile Include="Object\PhanNhom.cs" />
+    <Compile Include="Object\PhanQuyen.cs" />
     <Compile Include="Object\PhongGiaoDich.cs" />
     <Compile Include="Object\Quyen.cs" />
     <Compile Include="PhanQuyen.cs">
