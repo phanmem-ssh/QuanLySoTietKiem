@@ -17,7 +17,7 @@ namespace QuanLySoTietKiem
             InitializeComponent();
            
         }
-        
+    
         private void addNewTab(string strTabName, string strName, UserControl ucContent)
         {
             foreach (TabItem tabPage in tabContent.Tabs)
@@ -165,6 +165,11 @@ namespace QuanLySoTietKiem
         }
 
         private void RibbonForm1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonPanel4_Click(object sender, EventArgs e)
         {
 
         }
