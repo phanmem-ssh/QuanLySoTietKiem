@@ -33,9 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.18, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.35, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\DevComponents.DotNetBar2.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -122,6 +122,12 @@
     </Compile>
     <Compile Include="UCGuiThemTienSoKhongKyHan.Designer.cs">
       <DependentUpon>UCGuiThemTienSoKhongKyHan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCLaiSuatTietKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCLaiSuatTietKiem.Designer.cs">
+      <DependentUpon>UCLaiSuatTietKiem.cs</DependentUpon>
     </Compile>
     <Compile Include="UCLoaiTietKiem.cs">
       <SubType>UserControl</SubType>
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCGuiThemTienSoKhongKyHan.resx">
       <DependentUpon>UCGuiThemTienSoKhongKyHan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCLaiSuatTietKiem.resx">
+      <DependentUpon>UCLaiSuatTietKiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCLoaiTietKiem.resx">
       <DependentUpon>UCLoaiTietKiem.cs</DependentUpon>
@@ -413,6 +422,23 @@
   <ItemGroup>
     <None Include="Resources\lq.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\icons8-contacts-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stack-of-money-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transaction-list-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-category-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-percentage-64.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

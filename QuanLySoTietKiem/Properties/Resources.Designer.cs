@@ -183,6 +183,16 @@ namespace QuanLySoTietKiem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_category_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-category-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_chart_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-chart-64", resourceCulture);
@@ -196,6 +206,16 @@ namespace QuanLySoTietKiem.Properties {
         internal static System.Drawing.Bitmap icons8_condo_48__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-condo-48 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_contacts_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-contacts-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +293,49 @@ namespace QuanLySoTietKiem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_percentage_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-percentage-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_request_money_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-request-money-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_stack_of_money_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-stack-of-money-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_transaction_list_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-transaction-list-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_user_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-user-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

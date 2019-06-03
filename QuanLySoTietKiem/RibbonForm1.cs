@@ -171,12 +171,48 @@ namespace QuanLySoTietKiem
 
         private void RibbonForm1_Load(object sender, EventArgs e)
         {
-
+            ribbonTabItem1.Select();
         }
 
         private void ribbonPanel4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonItem15_Click_1(object sender, EventArgs e)
+        {
+            UCDanhMucTaiKhoan UCdmtk = new UCDanhMucTaiKhoan();
+            addNewTab("Danh mục tài khoản", "tab30", UCdmtk);
+        }
+
+        private void buttonItem16_Click(object sender, EventArgs e)
+        {
+            UCTaiKhoan UCtk = new UCTaiKhoan();
+            addNewTab("Tài khoản", "tab31", UCtk);
+        }
+
+        private void buttonItem17_Click(object sender, EventArgs e)
+        {
+            UCDanhMucLoaiTien UCdmlt = new UCDanhMucLoaiTien();
+            addNewTab("Danh mục loại tiền", "tab32", UCdmlt);
+        }
+
+        private void buttonItem25_Click(object sender, EventArgs e)
+        {
+            UCDanhMucLoaiGiaoDich UCdmlgd = new UCDanhMucLoaiGiaoDich();
+            addNewTab("Danh mục loại giao dịch", "tab32", UCdmlgd);
+        }
+
+        private void buttonItem26_Click(object sender, EventArgs e)
+        {
+            UCDanhMucKyLaiTietKiem UCdmkltk = new UCDanhMucKyLaiTietKiem();
+            addNewTab("Danh mục kỳ lãi tiết kiệm", "tab33", UCdmkltk);
+        }
+
+        private void buttonItem27_Click(object sender, EventArgs e)
+        {
+            UCLaiSuatTietKiem UClstk = new UCLaiSuatTietKiem();
+            addNewTab("Lãi suất tiết kiệm", "tab34", UClstk);
         }
     }
 }
