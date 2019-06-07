@@ -70,7 +70,6 @@ namespace QuanLySoTietKiem
             }
             LamMoi();
         }
-
         private void BtnHuy_Click(object sender, EventArgs e)
         {
             btnSua.Visible = true;
