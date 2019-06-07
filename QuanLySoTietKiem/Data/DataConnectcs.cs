@@ -9,6 +9,7 @@ namespace QuanLySoTietKiem.Data
 {
     class DataConnectcs
     {
+
         public static SqlConnection
          GetDBConnection(string datasource, string database, string username, string password)
         {
