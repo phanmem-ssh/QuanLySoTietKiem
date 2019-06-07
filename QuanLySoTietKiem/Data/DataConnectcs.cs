@@ -14,6 +14,7 @@ namespace QuanLySoTietKiem.Data
             //
             // Data Source=TRAN-VMWARE\SQLEXPRESS;Initial Catalog=simplehr;Persist Security Info=True;User ID=sa;Password=12345
             //
+            // upload
             string connString = @"Data Source=" + datasource + ";Initial Catalog="
                         + database + ";Persist Security Info=True;User ID=" + username + ";Password=" + password;
 
