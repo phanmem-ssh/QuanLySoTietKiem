@@ -192,6 +192,7 @@
             // 
             // txtMaQuyen
             // 
+            this.txtMaQuyen.Enabled = false;
             this.txtMaQuyen.Location = new System.Drawing.Point(252, 38);
             this.txtMaQuyen.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaQuyen.Name = "txtMaQuyen";

@@ -9,18 +9,18 @@ using System.Windows.Forms;
 
 namespace QuanLySoTietKiem.Object
 {
-    class Quyen
+    class NhomNguoiDung
     {
-        string maQuyen;
-        string tenQuyen;
+        string maNhomNguoiDung;
+        string tenNhomNguoiDung;
 
-        public string MaQuyen { get => maQuyen; set => maQuyen = value; }
-        public string TenQuyen { get => tenQuyen; set => tenQuyen = value; }
+        public string MaNhomNguoiDung { get => maNhomNguoiDung; set => maNhomNguoiDung = value; }
+        public string TenNhomNguoiDung { get => tenNhomNguoiDung; set => tenNhomNguoiDung = value; }
 
-        public void XuatNhapLieu(ref TextBox txtMaQuyen, ref TextBox txtTenQuyen)
+        public void XuatNhapLieu(ref TextBox txtMaNhom, ref TextBox txtTenNhomNguoiDung)
         {
-            txtMaQuyen.Text = this.maQuyen;
-            txtTenQuyen.Text = this.tenQuyen;
+            txtMaNhom.Text = MaNhomNguoiDung;
+            txtTenNhomNguoiDung.Text = TenNhomNguoiDung;
         }
         public int ThemData()
         {
@@ -29,17 +29,17 @@ namespace QuanLySoTietKiem.Object
             cnn.Open();
             try
             {
-                string sql = "Insert into QUYEN (MaQuyen,TenQuyen) "
-                + " values (@MaQuyen, @TenQuyen) ";
+                string sql = "Insert into NHOM_NGUOI_DUNG(MaNhomNguoiDung,TenNhomNguoiDung) "
+                + " values (@MaNhomNguoiDung, @TenNhomNguoiDung) ";
 
                 SqlCommand cmd = cnn.CreateCommand();
                 cmd.CommandText = sql;
 
-   
+
                 // Thêm tham số @MaKH
-                cmd.Parameters.Add("@MaQuyen", SqlDbType.VarChar).Value = MaQuyen;
-                cmd.Parameters.Add("@TenQuyen", SqlDbType.NVarChar).Value = TenQuyen;
-              
+                cmd.Parameters.Add("@MaNhomNguoiDung", SqlDbType.VarChar).Value = MaNhomNguoiDung;
+                cmd.Parameters.Add("@TenNhomNguoiDung", SqlDbType.NVarChar).Value = TenNhomNguoiDung;
+
 
                 // Thực thi Command (Dùng cho delete, insert, update).
                 ok = cmd.ExecuteNonQuery();
@@ -63,7 +63,7 @@ namespace QuanLySoTietKiem.Object
             cnn.Open();
             try
             {
-                string sql = "UPDATE QUYEN SET TenQuyen = '"+TenQuyen+"'  WHERE MaQuyen = '"+MaQuyen+"'";
+                string sql = "UPDATE NHOM_NGUOI_DUNG SET TenNhomNguoiDung = '" + TenNhomNguoiDung + "'  WHERE MaNhomNguoiDung = '" + MaNhomNguoiDung + "'";
 
                 SqlCommand cmd = cnn.CreateCommand();
                 cmd.CommandText = sql;
@@ -91,7 +91,7 @@ namespace QuanLySoTietKiem.Object
             cnn.Open();
             try
             {
-                string sql = "  DELETE FROM QUYEN WHERE MaQuyen = '" + MaQuyen + "'";
+                string sql = "  DELETE FROM NHOM_NGUOI_DUNG WHERE  MaNhomNguoiDung = '" + MaNhomNguoiDung + "'";
 
                 SqlCommand cmd = cnn.CreateCommand();
                 cmd.CommandText = sql;
