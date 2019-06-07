@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.btnThemKH = new System.Windows.Forms.Button();
             this.txtTenNhomNguoiDung = new System.Windows.Forms.TextBox();
             this.txtMaNhom = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,6 +43,11 @@
             this.dataGridNhomNguoiDung = new System.Windows.Forms.DataGridView();
             this.MaNhomNguoiDung = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenNhomNguoiDung = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnHuy = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -57,89 +56,28 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button8);
-            this.groupBox1.Controls.Add(this.button9);
-            this.groupBox1.Controls.Add(this.button11);
-            this.groupBox1.Controls.Add(this.button12);
-            this.groupBox1.Controls.Add(this.btnThemKH);
+            this.groupBox1.Controls.Add(this.btnLuu);
+            this.groupBox1.Controls.Add(this.btnXoa);
+            this.groupBox1.Controls.Add(this.btnHuy);
+            this.groupBox1.Controls.Add(this.btnSua);
+            this.groupBox1.Controls.Add(this.btnThem);
             this.groupBox1.Controls.Add(this.txtTenNhomNguoiDung);
             this.groupBox1.Controls.Add(this.txtMaNhom);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(13, 12);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(584, 257);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin nhóm người dùng ";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(280, 205);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 28);
-            this.button1.TabIndex = 112;
-            this.button1.Text = "Làm mới";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(446, 155);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(92, 28);
-            this.button8.TabIndex = 111;
-            this.button8.Text = "Lưu";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(100, 155);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(101, 28);
-            this.button9.TabIndex = 110;
-            this.button9.Text = "Xóa";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(446, 205);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(92, 28);
-            this.button11.TabIndex = 109;
-            this.button11.Text = "Thoát";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(280, 155);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(95, 28);
-            this.button12.TabIndex = 108;
-            this.button12.Text = "Sửa";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // btnThemKH
-            // 
-            this.btnThemKH.Location = new System.Drawing.Point(100, 205);
-            this.btnThemKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnThemKH.Name = "btnThemKH";
-            this.btnThemKH.Size = new System.Drawing.Size(101, 28);
-            this.btnThemKH.TabIndex = 107;
-            this.btnThemKH.Text = "Thêm";
-            this.btnThemKH.UseVisualStyleBackColor = true;
-            // 
             // txtTenNhomNguoiDung
             // 
             this.txtTenNhomNguoiDung.Location = new System.Drawing.Point(252, 86);
-            this.txtTenNhomNguoiDung.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenNhomNguoiDung.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenNhomNguoiDung.Name = "txtTenNhomNguoiDung";
             this.txtTenNhomNguoiDung.Size = new System.Drawing.Size(197, 22);
             this.txtTenNhomNguoiDung.TabIndex = 7;
@@ -147,7 +85,7 @@
             // txtMaNhom
             // 
             this.txtMaNhom.Location = new System.Drawing.Point(252, 38);
-            this.txtMaNhom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMaNhom.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaNhom.Name = "txtMaNhom";
             this.txtMaNhom.Size = new System.Drawing.Size(197, 22);
             this.txtMaNhom.TabIndex = 5;
@@ -180,9 +118,9 @@
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Location = new System.Drawing.Point(673, 12);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(358, 257);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
@@ -191,7 +129,7 @@
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(129, 196);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(84, 28);
             this.button7.TabIndex = 107;
@@ -202,7 +140,7 @@
             // textBox17
             // 
             this.textBox17.Location = new System.Drawing.Point(53, 155);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox17.Margin = new System.Windows.Forms.Padding(2);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(226, 22);
             this.textBox17.TabIndex = 106;
@@ -211,7 +149,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(53, 115);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(191, 21);
             this.checkBox2.TabIndex = 105;
@@ -222,7 +160,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(53, 82);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(115, 21);
             this.checkBox1.TabIndex = 104;
@@ -245,9 +183,9 @@
             this.groupBox3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.groupBox3.Controls.Add(this.dataGridNhomNguoiDung);
             this.groupBox3.Location = new System.Drawing.Point(13, 296);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(1017, 297);
             this.groupBox3.TabIndex = 109;
             this.groupBox3.TabStop = false;
@@ -260,7 +198,7 @@
             this.MaNhomNguoiDung,
             this.TenNhomNguoiDung});
             this.dataGridNhomNguoiDung.Location = new System.Drawing.Point(14, 31);
-            this.dataGridNhomNguoiDung.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridNhomNguoiDung.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridNhomNguoiDung.Name = "dataGridNhomNguoiDung";
             this.dataGridNhomNguoiDung.RowHeadersWidth = 51;
             this.dataGridNhomNguoiDung.RowTemplate.Height = 24;
@@ -284,6 +222,63 @@
             this.TenNhomNguoiDung.MinimumWidth = 6;
             this.TenNhomNguoiDung.Name = "TenNhomNguoiDung";
             // 
+            // btnLuu
+            // 
+            this.btnLuu.Location = new System.Drawing.Point(262, 187);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(95, 28);
+            this.btnLuu.TabIndex = 127;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Visible = false;
+            this.btnLuu.Click += new System.EventHandler(this.BtnLuu_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Location = new System.Drawing.Point(436, 155);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(92, 28);
+            this.btnXoa.TabIndex = 126;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.BtnXoa_Click);
+            // 
+            // btnHuy
+            // 
+            this.btnHuy.Location = new System.Drawing.Point(436, 187);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(2);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(92, 28);
+            this.btnHuy.TabIndex = 125;
+            this.btnHuy.Text = "Hủy";
+            this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.Visible = false;
+            this.btnHuy.Click += new System.EventHandler(this.BtnHuy_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Location = new System.Drawing.Point(262, 155);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(95, 28);
+            this.btnSua.TabIndex = 124;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.BtnSua_Click);
+            // 
+            // btnThem
+            // 
+            this.btnThem.Location = new System.Drawing.Point(98, 156);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(101, 28);
+            this.btnThem.TabIndex = 123;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.BtnThem_Click);
+            // 
             // UCNhomNguoiDung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -292,7 +287,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UCNhomNguoiDung";
             this.Size = new System.Drawing.Size(1068, 616);
             this.groupBox1.ResumeLayout(false);
@@ -320,13 +315,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataGridNhomNguoiDung;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button btnThemKH;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaNhomNguoiDung;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenNhomNguoiDung;
+        private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnThem;
     }
 }
