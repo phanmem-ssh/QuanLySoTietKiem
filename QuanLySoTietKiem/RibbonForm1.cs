@@ -101,7 +101,7 @@ namespace QuanLySoTietKiem
         {
             //TAB7
             UCGiaoDichVien UCGDV = new UCGiaoDichVien();
-        //    addNewTab("Giao dịch viên", "tab7", UCNV);
+            addNewTab("Giao dịch viên", "tab7", UCGDV);
         }
 
         private void btnNhomNGDung_Click(object sender, EventArgs e)
@@ -144,12 +144,7 @@ namespace QuanLySoTietKiem
             UCSoDuTietKiem UCSDTK = new UCSoDuTietKiem();
             addNewTab("Số dư tiết kiệm", "tab13", UCSDTK);
         }
-        private void btnGtien_Click(object sender, EventArgs e)
-        {
-           //TAB14
-           UCSoDuTietKiem UCSDTK = new UCSoDuTietKiem();
-            addNewTab("Số dư tiết kiệm", "tab13", UCSDTK);
-        }
+       
         private void btnLTKiem_Click(object sender, EventArgs e)
         {
             //TAB15
