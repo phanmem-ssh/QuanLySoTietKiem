@@ -15,9 +15,9 @@ namespace QuanLySoTietKiem
         public RibbonForm1()
         {
             InitializeComponent();
-           
+
         }
-    
+
         private void addNewTab(string strTabName, string strName, UserControl ucContent)
         {
             foreach (TabItem tabPage in tabContent.Tabs)
@@ -26,7 +26,7 @@ namespace QuanLySoTietKiem
                     tabContent.SelectedTab = tabPage;
                     return;
                 }
-            
+
             TabControlPanel newTabPanel = new DevComponents.DotNetBar.TabControlPanel();
             TabItem newTabPage = new TabItem(this.components);
             newTabPage.ImageIndex = 0;
@@ -45,7 +45,7 @@ namespace QuanLySoTietKiem
             newTabPanel.TabIndex = 4;
             newTabPanel.TabItem = newTabPage;
             Random ran = new Random();
-            newTabPage.Name = strName+ran.Next(100000) + ran.Next(22342); ;
+            newTabPage.Name = strName + ran.Next(100000) + ran.Next(22342); ;
             newTabPage.AttachedControl = newTabPanel;
             newTabPage.Text = strTabName;
             ucContent.Dock = DockStyle.Fill;
@@ -54,7 +54,7 @@ namespace QuanLySoTietKiem
             tabContent.Tabs.Add(newTabPage);
             tabContent.SelectedTab = newTabPage;
         }
-    
+
         private void buttonItem15_Click(object sender, EventArgs e)
         {
             //TAB1
@@ -72,7 +72,7 @@ namespace QuanLySoTietKiem
         {
             //TAB3
             UCKhachHang UCKHang = new UCKhachHang();
-            addNewTab("Khách hàng","tab4",UCKHang);
+            addNewTab("Khách hàng", "tab4", UCKHang);
         }
 
         private void btnPhGdich_Click(object sender, EventArgs e)
@@ -94,14 +94,14 @@ namespace QuanLySoTietKiem
             //TAB6
             UCNhanVien UCNV = new UCNhanVien();
             addNewTab("Nhân viên", "tab6", UCNV);
-         
+
         }
 
         private void btnGDVien_Click(object sender, EventArgs e)
         {
             //TAB7
             UCGiaoDichVien UCGDV = new UCGiaoDichVien();
-        //    addNewTab("Giao dịch viên", "tab7", UCNV);
+            //    addNewTab("Giao dịch viên", "tab7", UCNV);
         }
 
         private void btnNhomNGDung_Click(object sender, EventArgs e)
@@ -146,8 +146,8 @@ namespace QuanLySoTietKiem
         }
         private void btnGtien_Click(object sender, EventArgs e)
         {
-           //TAB14
-           UCSoDuTietKiem UCSDTK = new UCSoDuTietKiem();
+            //TAB14
+            UCSoDuTietKiem UCSDTK = new UCSoDuTietKiem();
             addNewTab("Số dư tiết kiệm", "tab13", UCSDTK);
         }
         private void btnLTKiem_Click(object sender, EventArgs e)
@@ -160,8 +160,8 @@ namespace QuanLySoTietKiem
         private void tabContent_TabItemClose(object sender, TabStripActionEventArgs e)
         {
             TabItem tab = tabContent.SelectedTab;
-            tabContent.Tabs.Remove(tab);    
-            
+            tabContent.Tabs.Remove(tab);
+
         }
 
         private void ribbonTabItem3_Click(object sender, EventArgs e)
